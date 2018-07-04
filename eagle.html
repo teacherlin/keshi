@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>eagle troop</title>
+	<style>
+		body {background-color: #1c1d1d;font-family: verdana;}
+		h1,h2,h3,h4,h5,p,ul,ol {margin: 0;padding: 0;}
+		.main {width: 940px;height: 858px;border: 1px red solid;margin-left: auto;margin-right: auto;}
+		.main-top {height: 180px;background-color: #ccc;margin-bottom: 40px;}
+		article {width: 620px;height: 638px;float: left;}
+		article h3{color: #eee;font-family: "times new roman";font-size: 30px;text-transform: capitalize;/*首字母大写*/}
+		.date {width: 60px;height: 60px;float: left;}
+		.content {margin-top: 20px;height: 260px;}
+		.content p {margin-bottom: 22px;}
+		.content p b{color: #ddd;}
+		.content-txt {width: 540px;float: right;color: #7f7f7f;line-height: 1.5em;}
+		.content a {background-color: #de5400;width: 106px;height: 41px;display: block;border-radius: 8px;line-height: 41px;text-decoration: none;text-align: center;}
+		.content-txt img {float: left;margin-right: 20px;}
+
+
+
+		/*侧边栏的样式*/
+		aside {width: 300px;height: 638px;float: right;}
+		aside h3 {height: 48px;line-height:48px;/*单行文本垂直居中：设置line-height:文字所在容器的高度*/background-color: #000;border-radius: 6px;/*圆角*/font-family: "times new roman";color: #eee;font-size: 24px;/*padding-top:12px;height: 36px;*/padding-left: 22px;/*padding为内边距，与外边距margin相对应*/}
+		aside ul {padding-left: 22px;list-style-image: url(images/sanjiao_17.gif);list-style-position: inside;/*默认是outside*/margin-top:28px;line-height: 36px;}
+		aside li {border-bottom: 1px #ccc dotted}
+		aside .last {border-bottom: none;}/*去掉最后一个列表项li的下边框*/
+		aside li a {text-decoration: none;/*去掉下划线*/color: #eee;font-style: italic;/*文字倾斜*//*font-weight: bold;*/}
+		aside li a:hover {color: red;}/*鼠标滑过时的样式*/
+
+		.aside-bottom {padding: 20px;background-color: #000; color: #eee;border-radius: 6px;margin-top: 36px;}
+		.aside-bottom h4 {color: #a5a5a5;margin-bottom: 14px;font-family: "times new roman";font-size: 20px;}
+		aside time {display:block;margin-top: 20px;font-weight: bold;}
+
+	</style>
+</head>
+<body>
+	<section class="main">
+		<div class="main-top"></div>
+		<article>
+			<h3>next event</h3>
+			<div class="content">
+				<div class="date">
+					<img src="images/date-31_06.gif" alt="">
+				</div>
+				<div class="content-txt">
+					<p><b>The point of using Lorem</b> point of using Lorem Ipsum making it look like readable it look like readable Lorem Ipsum is not simply. The point of using Lorem point of using Lorem Ipsum making it look like readable it look like readable Lorem Ipsum is not simply</p>
+					<p>Lorem Ipsum making it look like readable it look like readable. it look like readable it look like readable.</p>
+					<a href ="#">more</a>
+				</div>
+			</div>
+			<div class="content">
+				<div class="date">
+					<img src="images/date-31_06.gif" alt="">
+				</div>
+				<div class="content-txt">
+					<img src="images/content-pic_18.gif" alt="">
+					<p><b>The point of using </b> it look like readable Lorem Ipsum is not simply. The point of using Lorempoint of using Lorem Ipsum making it look like readable it look like readable Lorem Ipsum is not simply. The point of using Lorem.</p>
+					<a href="#">more</a>
+				</div>
+			</div>
+		</article>
+		<aside>
+			<h3>Our Adventures</h3>
+			<ul>
+				<li><a href="http://www.baidu.com">The point of using Lorem</a></li>
+				<li> <a href="#">point of using Lorem Ipsum</a></li>
+				<li> <a href="#">point of using Lorem Ipsum</a></li>
+				<li> <a href="#">making it look like readable</a></li>
+				<li> <a href="#">it look like readable</a></li>
+				<li> <a href="#">Lorem Ipsum is not simply</a></li>
+				<li class="last"> <a href="#">making it look like</a></li>
+			</ul>
+			<div class="aside-bottom">
+				<h4>troop #345 meeting</h4>
+				<img src="images/meeting-pic_03.gif" alt="">
+				<time>monday 9:00-12:00</time>
+				<p>making it look like readable it look like.</p>
+			</div>
+		</aside>
+	</section>
+	<a href="#">春天</a><a href="#">夏天</a><time>秋天</time><time>冬天</time>
+</body>
+</html>
